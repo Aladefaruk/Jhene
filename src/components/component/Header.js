@@ -52,12 +52,12 @@ const Header = () => {
                                 </li>
                                 <li>
                                     <Link to="/" className="sm-links">
-                                        Contact Us
+                                        Contact
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/" className="sm-links">
-                                        About Us
+                                        About us
                                     </Link>
                                 </li>
                             </ul>
@@ -75,16 +75,16 @@ const Header = () => {
                         </div>
                         <div className="links">
                             <Link to="/contact" className="link">
-                                Contact us
+                                Contact
                             </Link>
                             <Link to="/about" className="link">
-                                About
+                                About us
                             </Link>
-                            <Link to="/vendor-form" className="link link-btn">
-                                Vendor Access
+                            <Link to="/vendor-form" className="link ">
+                                Join as a Vendor
                             </Link>
                             <Link to="/chat" className="link link-btn link-btn2">
-                                Get Started
+                                Start Shopping
                             </Link>
                         </div>
                     </div>

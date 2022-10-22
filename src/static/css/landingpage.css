@@ -1,488 +1,523 @@
-.wrapper{
-    padding: 0px 11.07%;
-    padding-top: 55px;
+.wrapper {
+  padding: 0px 11.07%;
+  padding-top: 55px;
 }
 
-.top-desc{
-    display: flex;
-    width: 100%;
-    margin-bottom: 85px;
+.top-desc {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 85px;
 }
 
-.top-desc .imgs{
-    width: 30%;
-    margin-right: 60px;
+.top-desc .imgs {
+  width: 30%;
+  /* margin-right: 60px; */
 }
 
-.top-desc .imgs img{
-    width: 393px;
-    height: 411px;
+.top-desc .imgs img {
+  width: 393px;
+  height: 411px;
 }
 
-.top-desc .imgs-sm{
-    display: none;
+.top-desc .imgs-sm {
+  display: none;
 }
 
-.top-desc .desc{
-    width: 70%;
-    padding-top: 88px;
+.top-desc .desc {
+  width: 50%;
+  padding-top: 88px;
 }
 
-.top-desc .desc h4{
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 35px;
-    letter-spacing: -0.165px;
-    color: #3474E2;
-    max-width: 653px;
-    margin-bottom: 20px;
+.top-desc .desc h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  text-align: left;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 66px;
+  letter-spacing: -0.165px;
+  color: #03113a;
+  max-width: 653px;
+  margin-bottom: 20px;
 }
-.top-desc .desc p{
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: -0.165px;
-    color: #4F5665;
-    margin-bottom: 50px;
+.top-desc .desc h4 span {
+  color: #3474e2;
 }
-
-.top-desc .desc div .link-btn{
-    padding: 22px 12px;
-    color: #ffffff;
-    background-color: #3474E2;
-    border-radius: 5px;
-    text-decoration: none;
-    color: #ffffff;
-    display: inline-block;
-    width: calc(50% - 20px);
-    min-height: 50px;
-    text-align: center;
-    box-sizing: border-box;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 18px;
+.top-desc .desc p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.165px;
+  color: #1e488f;
+  margin-bottom: 10px;
+  display: flex;
 }
 
-.top-desc .desc div .link-btn2{
-    margin-left: 40px;
-    background-color: #8976FD;
+.top-desc .desc hr {
+  width: 23%;
+  height: 1px;
+  border: 1px thin #006d77;
 }
 
-.vendor-desc-img{
-    margin-bottom: 52px;
+.p1 {
+  margin-top: 24px;
+  text-align: left;
 }
 
-.vendor-desc-img img{
-    width: 100%;
+.p2 {
+  margin-top: 12px;
+  text-align: left;
 }
 
-.about-us-text,.about-us .about-us-desc h4{
-    text-align: center;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 24px;
-    letter-spacing: -0.165px;
-    color: #3474E2;
-    margin-bottom: 15px;
+.top-desc .desc div .link-btn {
+  padding: 22px 12px;
+  margin-top: 40px;
+  color: #ffffff;
+  background-color: #3474e2;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  width: calc(50% - 20px);
+  min-height: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
 }
 
-.about-us{
-    display: flex;
+.top-desc .desc div .link-btn2 {
+  margin-left: 20px;
+  background-color: #06237b;
 }
 
-.about-us .about-us-desc{
-    width: 70%;
-    padding-right: 135px;
+.vendor-desc-img {
+  margin-bottom: 52px;
 }
 
-.about-us .about-us-desc h4{
-    text-align: left;
+.vendor-desc-img img {
+  width: 100%;
 }
 
-.about-us .about-us-desc p{
-    font-family: "DM Sans";
-    font-style: normal;
-    margin-bottom: 2px;
-    font-weight: normal;
-    font-size: 16px;
-    color: #4F5665;
-    letter-spacing: -0.165px;
-    line-height: 24px;
+.about-us-text,
+.about-us .about-us-desc h4 {
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 24px;
+  letter-spacing: -0.165px;
+  color: #3474e2;
+  margin-bottom: 15px;
 }
 
-.about-us .about-us-img{
-    width: 25%;
+.about-us {
+  display: flex;
 }
 
-.about-us .about-us-img img{
-    position: relative;
-    bottom: 37px;
-    width: 160px;
-    height: 296px;
+.about-us .about-us-desc {
+  width: 70%;
+  padding-right: 135px;
 }
 
-.the-team{
-    margin-bottom: 40px;
+.about-us .about-us-desc h4 {
+  text-align: left;
 }
 
-.the-team p{
-    color: #4F5665;
-    font-family: "DM Sans";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 10px;
+.about-us .about-us-desc p {
+  font-family: "DM Sans";
+  font-style: normal;
+  margin-bottom: 2px;
+  font-weight: normal;
+  font-size: 16px;
+  color: #4f5665;
+  letter-spacing: -0.165px;
+  line-height: 24px;
 }
 
-.the-team h4{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 18px;
-    letter-spacing: -0.165px;
-    color: #3474E2;
+.about-us .about-us-img {
+  width: 25%;
+}
+
+.about-us .about-us-img img {
+  position: relative;
+  bottom: 37px;
+  width: 160px;
+  height: 296px;
+}
+
+.the-team {
+  margin-bottom: 40px;
+}
+
+.the-team p {
+  color: #4f5665;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.the-team h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 18px;
+  letter-spacing: -0.165px;
+  color: #3474e2;
+  margin-bottom: 12px;
+}
+
+.the-team div.pics {
+  display: flex;
+}
+
+.the-team div.pics div {
+  margin-right: 163px;
+}
+
+.the-team div.pics div h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #224e9c;
+  margin-bottom: 2px;
+}
+
+.the-team div.pics div p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8a6a8a;
+}
+
+.the-team div.pics img {
+  width: 255px;
+  height: 255px;
+}
+
+.contact-us h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 18px;
+  letter-spacing: -0.165px;
+  color: #3474e2;
+  margin-bottom: 10px;
+}
+
+.contact-us p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contact-us p a {
+  text-decoration: none;
+  color: red;
+  transition: linear 5ms all;
+}
+
+.contact-us p a.twit {
+  color: #3474e2;
+}
+
+.contact-us p a:hover {
+  font-size: 17px;
+}
+
+.stand-bot-sm {
+  display: none;
+}
+
+@media (max-width: 1440px) {
+  .top-desc .desc p {
     margin-bottom: 12px;
-}
-
-.the-team div.pics{
-    display: flex;
-}
-
-.the-team div.pics div{
-    margin-right: 163px;
-}
-
-.the-team div.pics div h4{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    color: #224E9C;
-    margin-bottom: 2px;
-}
-
-.the-team div.pics div p{
-    font-family: "DM Sans";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #8A6A8A;
-}
-
-.the-team div.pics img{
-    width: 255px;
-    height: 255px;
-} 
-
-.contact-us h4{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 18px;
-    letter-spacing: -0.165px;
-    color: #3474E2;
-    margin-bottom: 10px;
-}
-
-.contact-us p{
-    font-family: "DM Sans";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.contact-us p a{
-    text-decoration: none;
-    color: red;
-    transition: linear 5ms all;
-}
-
-.contact-us p a.twit{
-    color: #3474E2;
-}
-
-.contact-us p a:hover{
     font-size: 17px;
+    line-height: 25px;
+    text-align: left;
+  }
+
+  .top-desc .imgs {
+    width: 30%;
+  }
+
+  .top-desc .desc h4 {
+    font-size: 60px;
+    margin-bottom: 2px;
+  }
+
+  .top-desc .desc div .link-btn {
+    padding: 17px 12px;
+  }
+
+  .top-desc .imgs img {
+    width: 320px;
+    height: 420px;
+  }
+
+  .top-desc .desc {
+    width: 50%;
+    padding-top: 32px;
+  }
+
+  .about-us .about-us-desc {
+    width: 90%;
+    padding-right: 70px;
+    text-align: left;
+  }
+
+  .about-us .about-us-img img {
+    bottom: 45px;
+    width: 150px;
+    height: 306px;
+  }
 }
 
-.stand-bot-sm{
+@media (max-width: 1150px) {
+  .about-us .about-us-img img {
+    bottom: 20px;
+    width: 150px;
+    height: 306px;
+  }
+
+  .wrapper {
+    padding: 0px 8%;
+    padding-top: 48px;
+  }
+}
+
+@media (max-width: 1013px) {
+  .top-desc .desc br {
     display: none;
+  }
+  .wrapper {
+    padding: 0px 11.4%;
+  }
+
+  .vendor-desc-img {
+    margin-bottom: 22px;
+  }
+
+  .vendor-desc-img img {
+    width: 100%;
+    height: 260px;
+  }
+
+  .top-desc {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+  }
+
+  .top-desc .imgs {
+    display: none;
+  }
+  .top-desc .desc {
+    margin-bottom: 25px;
+  }
+
+  .top-desc .desc h4 {
+    text-align: left;
+    padding: 0px 20px;
+    font-size: 48px;
+  }
+
+  .top-desc .desc {
+    text-align: left;
+    font-size: 16px;
+  }
+  .top-desc .desc {
+    width: 90%;
+    text-align: justify;
+  }
+
+  .top-desc .imgs-sm {
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-desc .imgs-sm img {
+    width: 220px;
+    height: 240px;
+  }
+
+  .about-us {
+    margin-bottom: 28px;
+    display: block;
+  }
+
+  .about-us .about-us-desc {
+    width: 98%;
+    padding-right: 0px;
+  }
+
+  .about-us-desc p {
+    font-size: 14px;
+  }
+
+  .about-us .about-us-img {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-us .about-us-img img {
+    bottom: 0px;
+  }
 }
 
-@media(max-width:1440px){
-    .top-desc .desc p{
-        margin-bottom: 40px;
-        font-size: 17px;
-        line-height: 25px;
-    }
-
-    .top-desc .imgs{
-        width: 25%;
-        margin-right: 110px;
-    }
-
-    .top-desc .desc h4{
-        font-size: 28px;
-        margin-bottom: 10px;
-    }
-
-    .top-desc .desc div .link-btn{
-        padding: 17px 12px;
-    }
-
-    .top-desc .imgs img{
-        width: 280px;
-        height: 300px;
-    }
-    
-    .top-desc .desc{
-        width: 75%;
-        padding-top: 32px;
-    }
-
-    .about-us .about-us-desc{
-        width: 90%;
-        padding-right: 70px;
-    }
-
-    .about-us .about-us-img img{
-        bottom: 45px;
-        width: 150px;
-        height: 306px;
-    }
+@media (max-width: 850px) {
+  .about-us .about-us-img img {
+    width: 96px;
+    height: 195px;
+  }
 }
 
-@media(max-width:1150px){
-    .about-us .about-us-img img{
-        bottom: 20px;
-        width: 150px;
-        height: 306px;
-    }
+@media (max-width: 750px) {
+  .top-desc .imgs-sm img {
+    width: 156px;
+    height: 169px;
+  }
 
-    .wrapper{
-        padding: 0px 8%;
-        padding-top: 48px;
-    }
+  .wrapper {
+    padding: 0px 16px;
+  }
+
+  .about-us {
+    margin-bottom: 15px;
+  }
+
+  .vendor-desc-img {
+    margin-bottom: 16px;
+  }
+
+  .vendor-desc-img img {
+    height: 210px;
+  }
+
+  .top-desc .desc div .link-btn {
+    width: 100%;
+    margin-bottom: 11px;
+    margin-left: 0px;
+  }
+
+  .top-desc .desc h4 {
+    font-size: 30px;
+    padding: 0 15px;
+  }
+
+  .about-us-text {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  .about-us .about-us-desc h4 {
+    margin-bottom: 5px;
+  }
+
+  .about-us .about-us-desc p {
+    font-size: 14px;
+  }
+
+  .the-team h4 {
+    margin-bottom: 5px;
+  }
+
+  .the-team p {
+    font-size: 14px;
+  }
+
+  .about-us .about-us-desc h4,
+  .the-team h4,
+  .contact-us h4,
+  .the-team div.pics div h4 {
+    font-size: 16px;
+  }
+
+  .about-us .about-us-img img {
+    bottom: 0px;
+    width: 76px;
+    height: 175px;
+  }
+
+  .the-team div.pics {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .the-team div.pics div {
+    margin-right: 0px;
+  }
+
+  .the-team div.pics div h4 {
+    font-size: 16px;
+    margin: 0.5px 0px;
+    font-weight: lighter;
+  }
+
+  .the-team div.pics div p {
+    margin: 0.5px 0px;
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
+
+  .the-team div.pics img {
+    width: 165.38px;
+    height: 165.38px;
+  }
+
+  .the-team {
+    margin-bottom: 18px;
+  }
+
+  .contact-us h4 {
+    margin-bottom: 7px;
+  }
+
+  .contact-us p {
+    font-size: 14px;
+  }
+
+  .contact-us p a:hover {
+    font-size: 15.5px;
+  }
+
+  .stand-bot-sm {
+    display: inline;
+  }
+
+  .stand-bot {
+    display: none;
+  }
 }
 
-@media(max-width:1013px){
-    .wrapper{
-        padding: 0px 11.4%;
-    }
-
-    .vendor-desc-img{
-        margin-bottom: 22px;
-    }
-
-    .vendor-desc-img img{
-        width: 100%;
-        height: 260px;
-    }
-
-    .top-desc{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 45px;
-    }
-    
-    .top-desc .imgs{
-        display: none;
-    }
-    .top-desc .desc{
-        margin-bottom: 25px;
-    }
-
-    .top-desc .desc h4{
-        text-align: center;
-        padding: 0px 20px;
-        font-size: 28px;
-    }
-
-    .top-desc .desc p{
-        text-align: center;
-        font-size: 16px;
-    }
-
-    .top-desc .imgs-sm{
-        display: flex;
-        justify-content: center;
-    }
-
-    .top-desc .imgs-sm img{
-        width: 220px;
-        height: 240px;
-    }
-
-    .about-us{
-        margin-bottom: 28px;
-        display: block;
-    }
-
-    .about-us .about-us-desc{
-        width: 98%;
-        padding-right: 0px;
-    }
-
-    .about-us-desc p{
-        font-size: 14px;
-    }
-
-    .about-us .about-us-img{
-        width: 100%;
-        text-align: center;
-    }
-
-    .about-us .about-us-img img{
-        bottom: 0px;
-    }
+@media (max-width: 500px) {
+  .vendor-desc-img img {
+    height: 175px;
+  }
 }
 
-@media(max-width:850px){
-    .about-us .about-us-img img{
-        width: 96px;
-        height: 195px;
-    }
+@media (max-width: 410px) {
+  .vendor-desc-img img {
+    height: 145px;
+  }
 }
-
-@media(max-width:750px){
-    .top-desc .imgs-sm img{
-        width: 156px;
-        height: 169px;
-    }
-
-    .wrapper{
-        padding: 0px 16px;
-    }
-
-    .about-us{
-        margin-bottom: 15px;
-    }
-
-    .vendor-desc-img{
-        margin-bottom: 16px;
-    }
-
-    .vendor-desc-img img{
-        height: 210px;
-    }
-
-    .top-desc .desc div .link-btn{
-        width: 100%;
-        margin-bottom: 11px;
-        margin-left:0px;
-    }
-
-    .top-desc .desc h4{
-        font-size: 24px;
-        padding: 0 15px;
-    }
-
-    .about-us-text {
-        font-size: 17px;
-        font-weight: bold;
-        margin-bottom: 12px;
-    }
-    .about-us .about-us-desc h4{
-        margin-bottom: 5px;
-    }
-
-    .about-us .about-us-desc p{
-        font-size: 14px;
-    }
-
-    .the-team h4{
-        margin-bottom: 5px;
-    }
-
-    .the-team p{
-        font-size: 14px;
-    }
-
-    .about-us .about-us-desc h4, .the-team h4, .contact-us h4, .the-team div.pics div h4{
-        font-size: 16px;
-    }
-
-    .about-us .about-us-img img{
-        bottom: 0px;
-        width: 76px;
-        height: 175px;
-    }
-
-    .the-team div.pics{
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;        
-    }
-
-    .the-team div.pics div{
-        margin-right: 0px;
-    }
-
-    .the-team div.pics div h4{
-        font-size: 16px;
-        margin: 0.5px 0px;
-        font-weight: lighter;
-    }
-
-    .the-team div.pics div p{
-        margin: 0.5px 0px;
-        font-size: 14px;
-        margin-bottom: 14px;
-    }
-
-    .the-team div.pics img{
-        width: 165.38px;
-        height: 165.38px;
-    } 
-
-    .the-team{
-        margin-bottom: 18px;
-    }
-
-    .contact-us h4{
-        margin-bottom: 7px;
-    }
-
-    .contact-us p{
-        font-size: 14px;
-    }
-
-    .contact-us p a:hover{
-        font-size: 15.5px;
-    }
-
-    .stand-bot-sm{
-        display: inline;
-    }
-
-    .stand-bot{
-        display: none;
-    }
-}
-
-@media(max-width:500px){
-    .vendor-desc-img img{
-        height: 175px;
-    }
-}
-
-@media(max-width:410px){
-    .vendor-desc-img img{
-        height: 145px;
-    }
-} 

@@ -19,6 +19,32 @@ const LandingPage = () => {
                 <div className="top-desc">
                     <VisibilitySensor partialVisibility>
                         {({isVisible}) => (
+                            <Spring delay={200} to={{opacity:isVisible ? 1 : 0, transform : isVisible ? "translateX(0)" : "translateX(20px)"}}>
+                                {props => (
+                                    <div className="desc" style={{...props}}>
+                                        <h4>E-commerce you <br/>can <span>trust</span></h4>
+                                        <p className='p1'>Jhene cuts off the hassel and makes it easier for online shoppers to get legitimate and trusted vendors.</p>
+                                        <hr/>
+                                        <p className='p2'>We increase the market coverage of vendors and help them make more sales.</p>
+                                        <div>
+                                            <Link to="/chat">
+                                                <span className="link-btn">
+                                                    Start Shopping
+                                                </span>
+                                            </Link>
+                                            <Link to="/vendor-form">
+                                                <span className="link-btn link-btn2">
+                                                    Open a Vendor Account
+                                                </span>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                )}
+                            </Spring>
+                        )}
+                    </VisibilitySensor>
+                     <VisibilitySensor partialVisibility>
+                        {({isVisible}) => (
                             <Spring delay={150} to={{position: "relative" , opacity:isVisible ? 1 : 0 }}>
                                 {props => (
                                     <div className="imgs" style={{...props}}>
@@ -28,31 +54,7 @@ const LandingPage = () => {
                             </Spring>
                         )}
                     </VisibilitySensor>
-                    <VisibilitySensor partialVisibility>
-                        {({isVisible}) => (
-                            <Spring delay={200} to={{opacity:isVisible ? 1 : 0, transform : isVisible ? "translateX(0)" : "translateX(20px)"}}>
-                                {props => (
-                                    <div className="desc" style={{...props}}>
-                                        <h4>Making the e-commerce experience better</h4>
-                                        <p>Jhene is a product designed to make online purchase seemless for Buyers, and market coverage wider for Vendors.</p>
-                                        <div>
-                                            <Link to="/chat">
-                                                <span className="link-btn">
-                                                    Get Started
-                                                </span>
-                                            </Link>
-                                            <Link to="/vendor-form">
-                                                <span className="link-btn link-btn2">
-                                                    I want to join as a vendor
-                                                </span>
-                                            </Link>
-                                        </div>
-                                    </div>
-                                )}
-                            </Spring>
-                        )}
-                    </VisibilitySensor>
-                    <VisibilitySensor partialVisibility>
+                    {/* <VisibilitySensor partialVisibility>
                         {({isVisible}) => (
                             <Spring delay={150} to={{position: "relative" , opacity:isVisible ? 1 : 0, transform : isVisible ? "rotate(0)" : "rotate(-90deg)" }}>
                                 {props => (
@@ -62,7 +64,7 @@ const LandingPage = () => {
                                 )}
                             </Spring>
                         )}
-                    </VisibilitySensor>
+                    </VisibilitySensor> */}
                 </div>
                 <VisibilitySensor partialVisibility>
                     {({isVisible}) => (
