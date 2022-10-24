@@ -9,6 +9,10 @@ import {
 } from 'cloudinary-react';
 
 import "../static/css/landingpage.css";
+import Customer from '../static/landingPA/customer.svg';
+import Cust from '../static/landingPA/cust.svg';
+import Vendor from '../static/landingPA/vendor.svg';
+import Vend from '../static/landingPA/vend.svg'
 import Footer from './component/Footer';
 
 const LandingPage = () => {
@@ -77,6 +81,71 @@ const LandingPage = () => {
                         </Spring>
                     )}
                 </VisibilitySensor>
+                <div className='customers'>
+                    <VisibilitySensor partialVisibility>
+                        {({isVisible}) => (
+                            <Spring delay={200} to={{opacity:isVisible ? 1 : 0, transform : isVisible ? "translateX(0)" : "translateX(20px)"}}>
+                                {props => (
+                                    <div className='customers-desc' style={{...props}}>
+                                        <h2>Jhene for Customers</h2>
+                                        <div>
+                                        <p><img src={Cust} alt=""/><span>Easily find service providers and vendors that sell what you need.</span></p>
+                                            <p><img src={Cust} alt=""/><span>We vet vendors before enlisting the so you can buy stuff with trust and peace of mind.</span></p>
+                                            <p><img src={Cust} alt=""/><span>Get a more personalized shopping experience.</span></p>
+                                             <button className="customer-button">
+                                                    Start Shopping
+                                                </button>
+                                        
+                                        </div>
+                                    </div>
+                                )}</Spring>)}
+                                </VisibilitySensor>
+                                 <VisibilitySensor partialVisibility>
+                        {({isVisible}) => (
+                            <Spring delay={150} to={{position: "relative" , opacity:isVisible ? 1 : 0 }}>
+                                {props => (
+                                    <div className="cus" style={{...props}}>
+                                          <img src={Customer} alt='customer'/>
+                                    </div>
+                                )}
+                            </Spring>
+                        )}
+                    </VisibilitySensor>
+
+
+                </div>
+                          <div className='vendors'>
+                    <VisibilitySensor partialVisibility>
+                        {({isVisible}) => (
+                            <Spring delay={200} to={{opacity:isVisible ? 1 : 0, transform : isVisible ? "translateX(0)" : "translateX(20px)"}}>
+                                {props => (
+                                    <div className='customers-desc' style={{...props}}>
+                                        <h2>Jhene for Vendors</h2>
+                                        <div>
+                                        <p><img src={Vend} alt=""/><span>Get discovered and Increase your market reach with access to thousands of users.</span></p>
+                                            <p><img src={Vend} alt=""/><span>Track your customer reach on Jhene.</span></p>
+                                            <p><img src={Vend} alt=""/><span>Free access for the first month and a small cost of N1600 for subsequent months.</span></p>
+                                             <button className="customer-button vendor-button">
+                                                    Open Vendor account
+                                                </button>
+                                        </div>
+                                    </div>
+                                )}</Spring>)}
+                                </VisibilitySensor>
+                                 <VisibilitySensor partialVisibility>
+                        {({isVisible}) => (
+                            <Spring delay={150} to={{position: "relative" , opacity:isVisible ? 1 : 0 }}>
+                                {props => (
+                                    <div className="cus" style={{...props}}>
+                                          <img src={Vendor} alt='vendor'/>
+                                    </div>
+                                )}
+                            </Spring>
+                        )}
+                    </VisibilitySensor>
+
+
+                </div>
                 <div>
                 <VisibilitySensor partialVisibility>
                         {({isVisible}) => (
